@@ -84,6 +84,15 @@ namespace ey_techical_test.Controllers
             }
         }
 
-    }
+        [HttpGet("")]
+        public async Task<ActionResult<ApiResponse<string>>> Login()
+        {
+            return Ok(new ApiResponse<string>
+            {
+                Status = "success",
+                Message = "Prueba Exitosa.",
+                Data = "ON"
+            });
+        }
 
 }
