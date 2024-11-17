@@ -1,0 +1,6 @@
+@ey_techical_test_HostAddress = http://localhost:5100
+
+GET {{ey_techical_test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+# Archivos binarios y temporales
+bin/
+obj/
+*.user
+*.lock.json
+*.pdb
+*.vs/
+.vscode/
+*.db
+
+# Configuración sensible
+appsettings.Development.json
